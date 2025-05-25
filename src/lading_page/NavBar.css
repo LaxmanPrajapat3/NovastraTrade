@@ -1,0 +1,31 @@
+nav{
+color:#424242;
+height: 67px;
+
+box-shadow: 1px 2px 10px gray;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+   z-index: 1000; 
+  background-color: white; 
+
+    
+}
+@media (max-width:650px) {
+
+        
+    
+    .nav-options a{
+        display: none;
+    }
+    .nav-options{
+        grid-template-columns: 1fr !important;
+        justify-items: end;
+
+    }
+    .nav-options i{
+        margin-right: 20px;
+    }
+
+}

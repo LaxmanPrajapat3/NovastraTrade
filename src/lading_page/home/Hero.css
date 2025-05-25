@@ -1,0 +1,19 @@
+.investheading{
+font-size:44px;
+
+color:#424242;
+font-weight:bold;
+}
+p{
+color:#424242;
+font-size: 20px;
+}
+button{
+    background-color: #387ed1;
+padding: 10px;
+margin: 25px;
+border-radius: 5px;
+color: white;
+font-size: 19px;
+
+}
