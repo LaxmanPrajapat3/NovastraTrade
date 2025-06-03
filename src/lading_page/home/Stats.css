@@ -16,4 +16,12 @@ p{
     font-size: 15px !important;
 
 }
+@media (width <=900px) {
+    .para{
+        /* background-color: pink; */
+    font-size: 12px !important;
+
+    }
+}
+
 

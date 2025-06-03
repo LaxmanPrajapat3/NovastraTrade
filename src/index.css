@@ -1,0 +1,13 @@
+.footer-icons{
+    padding-left: 10px;
+    
+    /* margin-left: 10px; */
+    padding-bottom: 10px;
+}
+.footer-icons:hover{
+    font-size:x-large;
+}
+footer{
+    
+    box-shadow: 2px 2px 10px gray;
+}
