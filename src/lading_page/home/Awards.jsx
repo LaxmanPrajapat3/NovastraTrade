@@ -1,6 +1,6 @@
 export default function Awards(){
     return(
-        <div className="grid grid-cols-3 grid-rows-1  text-center p-7 max-sm:grid-cols-1 max-sm:grid-rows-2 max-sm:justify-items-center">
+        <div className="grid grid-cols-3 grid-rows-1  text-center p-7 max-sm:grid-cols-1 max-sm:grid-rows-2 max-sm:justify-items-center ">
             <div className=" p-2 mb-2" >
 
 <img src="../../src/assets/Award_img_1.png" alt="" className="h-80 justify-self-center" />

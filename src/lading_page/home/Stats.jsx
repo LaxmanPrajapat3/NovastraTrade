@@ -1,8 +1,8 @@
 import './Stats.css'
 export default function Stats(){
     return(
-        <div className="grid grid-cols-2 grid-rows-1 bg-gray-200 p-5 gap-4">
-<div className="bg-sky-300 grid grid-rows-4 gap-4 ">
+        <div className="grid grid-cols-3 grid-rows-1  p-20 gap-4 h-200  max-md:grid-rows-2 max-md:grid-cols-1 max-md:h-300">
+<div className=" grid grid-rows-4 gap-4 max-md:h-180">
     <h1>Trust with confidence</h1>
     <div  className="paragraps">
     <h3>Customer-first always</h3>
@@ -30,8 +30,8 @@ export default function Stats(){
     </div>
 
 </div>
-<div className="bg-green-300">
-    <img src="../../src/assets/Stats_img_1.png" alt="" />
+<div className=" grid items-center justify-items-center col-span-2 max-md:mt-60">
+    <img src="../../src/assets/Stats_img_1.png" alt="" className='h-150 max-md:h-65'   / >
 </div>
 
         </div>
