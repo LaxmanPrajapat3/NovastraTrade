@@ -4,11 +4,11 @@ export default function Footer(){
     <footer className="h-120 grid grid-cols-5 gap-5  pl-20 pr-20 pt-2 pb-2 max-lg:grid-cols-1 max-lg:grid-rows-5 max-lg:h-270 ">
         <div className=" justify-items-center">
             <img src="../../src/assets/logo1.png" alt="" className="h-20"/>
-            <p>© 2010 - 2025, Zerodha Broking Ltd.
+            <p>© 2010 - 2025, NovastraTrade Broking Ltd.
                 All rights reserved.</p>
                
 
-<div>
+<div className="mt-10">
 
 <i class="fa-brands fa-x-twitter footer-icons" ></i>
 
@@ -26,9 +26,9 @@ export default function Footer(){
                
 
         </div>
-        <div className=" grid grid-rows-9 justify-items-center ">
+        <div className=" grid grid-rows-10 justify-items-center  ">
             
-            <h2 className="text-xl">Account</h2>
+            <h2 className="text-xl mb-10 row-span-2">Account</h2>
             <a href="" className="text-xs">Open demat account</a>
             <a href=""  className="text-xs">Minor demat account</a>
             <a href="" className="text-xs">NRI demat account</a>
@@ -41,9 +41,9 @@ export default function Footer(){
 
             
             </div>
-        <div className=" grid grid-rows-9 justify-items-center">
+        <div className=" grid grid-rows-10 justify-items-center">
 
-           <h2 className="text-xl">Support</h2>
+           <h2 className="text-xl row-span-2">Support</h2>
            <a href=""  className="text-xs">Contact us</a>
             <a href="" className="text-xs">Support portal</a>
             <a href="" className="text-xs">How to file a complaint?</a>
@@ -54,9 +54,9 @@ export default function Footer(){
             <a href="" className="text-xs">Downloads</a>
 
         </div>
-        <div className=" grid grid-rows-8 justify-items-center">
+        <div className=" grid grid-rows-9 justify-items-center">
             
-            <h2 className="text-xl">Company</h2>
+            <h2 className="text-xl row-span-2">Company</h2>
             <a href="" className="text-xs">About</a>
             <a href="" className="text-xs">Philosophy</a>
             <a href="" className="text-xs">Press & media</a>
@@ -67,9 +67,9 @@ export default function Footer(){
             
             
             </div>
-        <div className=" grid grid-rows-8 justify-items-center">
+        <div className=" grid grid-rows-9 justify-items-center">
             
-            <h2 className="text-xl"> Quick links </h2>
+            <h2 className="text-xl row-span-2"> Quick links </h2>
               <a href="" className="text-xs">Upcoming IPOs</a>
             <a href="" className="text-xs">Brokerage charges</a>
             <a href="" className="text-xs">Market holidays</a>

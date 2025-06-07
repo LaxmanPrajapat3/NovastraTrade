@@ -9,14 +9,14 @@ import Footer from "../Footer";
 
 export default function HomePage(){
 return (<>
-<NavBar/>
+
 <Hero/>
 <Awards/>
 <Stats/>
 <Pricing/>
 <Education/>
 <OpenAccount/>
-<Footer/>
+
 
 </>)
 }
